@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: sans-serif;
+    background-color: grey;
+   
+}
+
+.card{height: 400px;
+    display: inline-block;
+    width: 200px;
+    background-color: rgb(153, 165, 161);
+   margin-top: 10px;
+   margin-left: 20px;
+   border-radius: 15px;
+   box-shadow: 2px 2px 5px;
+ 
+}
+
+.img img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.img img:hover{
+    width: 98%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    transition: .5s;
+    
+}
+
+.title{
+    text-align: center;
+}
+.title h1{
+    color: rgb(144, 247, 216);
+    font-size: 20px;
+}
+.title h1:hover{
+    color: rgb(208, 241, 147);
+    font-size: 19px;
+}
+.dsc{
+    text-align: center;
+
+}
+p{
+    font-size:12px;
+    color: ghostwhite;
+    margin: 5px;
+}
+p:hover{
+    font-size:12px;
+    color: rgb(22, 22, 22);
+    margin: 5px;
+}
+button{
+    margin-top: 10px;
+    padding: 5px;
+    border-color: darkgreen;
+    border-radius: 5px;
+    color: rgb(19, 19, 18);
+    background-color: darkseagreen;
+    font-size: 12px;
+}
+button:hover{
+   
+        margin-top: 10px;
+        padding: 5px;
+        border-color: rgb(187, 201, 66);
+        border-radius: 5px;
+        color: rgb(247, 247, 234);
+        background-color: rgb(206, 104, 189);
+        cursor: pointer;
+        transition: .5s;
+        font-size: 10px;
+}
